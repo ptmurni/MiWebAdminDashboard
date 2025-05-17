@@ -1,8 +1,8 @@
 {
   "name": "miwebadmindashboard",
   "version": "1.0.0",
-  "description": "Modern admin dashboard based on CUBA template with Tailwind CSS and Vite",
-  "author": "Your Name",
+  "description": "Modern admin dashboard based on  Tailwind CSS and Vite",
+  "author": "Trisna Kurniawan, Roki Anjas",
   "license": "MIT",
   "private": true,
   "keywords": [

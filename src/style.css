@@ -2,4 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Import your CUBA styles below this line */
+/* Import your  styles below this line */
+.custom-tooltip {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.tooltip-marker {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #7366ff;
+  margin-right: 8px;
+}
+
+.tooltip-content {
+  font-size: 12px;
+  font-weight: 600;
+  color: #212529;
+}
+
+.apexcharts-xcrosshairs, .apexcharts-ycrosshairs {
+  display: none;
+}
