@@ -1,0 +1,38 @@
+{
+  "name": "miwebadmindashboard",
+  "version": "1.0.0",
+  "description": "Modern admin dashboard based on CUBA template with Tailwind CSS and Vite",
+  "author": "Your Name",
+  "license": "MIT",
+  "private": true,
+  "keywords": [
+    "dashboard",
+    "admin-panel",
+    "tailwindcss",
+    "vite",
+    "cuba",
+    "responsive"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "vite": "^6.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "autoprefixer": "^10.4.21",
+    "chokidar": "^4.0.3",
+    "concurrently": "^9.1.2",
+    "postcss": "^8.5.3",
+    "sass": "^1.89.0",
+    "tailwindcss": "^3.4.17",
+    "vite-plugin-pug": "^0.4.1"
+  },
+  "scripts": {
+    "postinstall": "npx tailwindcss -i ./assets/scss/tailwind.css -o ./assets/css/tailwind.css",
+    "watch:sass": "sass --watch assets/scss/style.scss:assets/css/style.css",
+    "watch:tailwind": "npx tailwindcss -i ./assets/scss/tailwind.css -o ./assets/css/tailwind.css --watch",
+    "dev": "concurrently \"npm run watch:sass\" \"npm run watch:tailwind\" \"vite --host\"",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}
