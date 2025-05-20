@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
       data: [30, 45, 35, 55, 30, 40, 30, 45, 35]
     }],
     chart: {
-      height: 125,
+      height: 113,
       type: 'line',
       zoom: {
         enabled: false

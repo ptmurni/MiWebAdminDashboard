@@ -1,8 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* Import your  styles below this line */
+/* Tooltip */
 .custom-tooltip {
   background-color: #fff;
   border-radius: 5px;
